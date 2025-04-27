@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DevSphere - Innovative Web Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navigation">
+      <div class="logo">DevSphere</div>
+      <ul class="menu">
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <h1>Innovative Web Solutions</h1>
+      <p>We craft stunning web experiences for businesses worldwide.</p>
+      <a href="#contact" class="btn">Get Started</a>
+    </section>
+
+    <section id="works" class="works">
+      <h2>Our Works</h2>
+      <p>We have built numerous successful projects ranging from e-commerce platforms to enterprise solutions. Our expertise spans across various industries, ensuring tailored solutions for every business need.</p>
+    
+      <div class="works-grid">
+        <div class="work-card">
+          <i class="fa-solid fa-code"></i>
+          <h3>E-commerce Website</h3>
+        </div>
+    
+        <div class="work-card">
+          <i class="fa-solid fa-chart-pie"></i>
+          <h3>Business Management Tool</h3>
+        </div>
+    
+        <div class="work-card">
+          <i class="fa-solid fa-users"></i>
+          <h3>Personal Portfolio</h3>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="portfolio" class="portfolio">
+      <h2>Portfolio</h2>
+      <p>Our Experienced UI/UX Designers know they have reached Perfection, not when they have nothing to add, but when there is nothing to remove. They iterate for Perfection</p>
+    
+      <div class="portfolio-grid">
+        <!-- Ось твоя головна картка -->
+        <div class="portfolio-item main-card">
+          <img src="img/main-picture.jpg" alt="Main Project">
+          <div class="overlay">
+            <div class="overlay-content">
+              <h3>User-Centered Design</h3>
+              <p>We prioritize intuitive and engaging user experiences.</p>
+              <h3>Clean & Scalable Code</h3>
+              <p>Our solutions are built to grow with your business.</p>
+              <h3>Cutting-Edge Technologies</h3>
+              <p>We stay ahead with the latest tools and frameworks.</p>
+              <h3>Reliable Performance</h3>
+              <p>Speed, security, and stability at the core.</p>
+              <h3>Transparent Communication</h3>
+              <p>Honest collaboration every step.</p>
+              <h3>Tailored Solutions</h3>
+              <p>Every project is unique.</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Маленькі картки -->
+        <div class="portfolio-item small-card">
+          <img src="img/aside-picture-1.jpg" alt="Project 2">
+          <div class="overlay-bottom">
+            <h3>User-Centered Design</h3>
+          </div>
+        </div>
+        
+        <div class="portfolio-item small-card">
+          <img src="img/aside-picture-2.jpg" alt="Project 3">
+          <div class="overlay-bottom">
+            <h3>Clean & Scalable Code</h3>
+          </div>
+        </div>
+        
+        <div class="portfolio-item small-card">
+          <img src="img/bottom-picture-1.jpg" alt="Project 4">
+          <div class="overlay-bottom">
+            <h3>Cutting-Edge Technologies</h3>
+          </div>
+        </div>
+        
+    
+        <div class="portfolio-item small-card">
+          <img src="img/bottom-picture-2.jpg" alt="Project 5">
+          <div class="overlay-bottom">
+            <h3>Transparent Communication</h3>
+          </div>
+        </div>
+        
+        <div class="portfolio-item small-card">
+          <img src="img/bottom-picture-3.jpg" alt="Project 6">
+          <div class="overlay-bottom">
+            <h3>Tailored Solutions</h3>
+          </div>
+        </div>
+        
+      </div> <!-- /portfolio-grid -->
+    
+    </section>
+    
+    
+    <section id="features" class="features">
+      <h2>Features</h2>
+      <ul class="features-list">
+        <li><i class="fa-solid fa-check"></i> Our web solutions are built with cutting-edge technologies, ensuring top-notch performance, security, and scalability.</li>
+        <li><i class="fa-solid fa-check"></i> We focus on user-friendly design, seamless functionality, and mobile responsiveness to enhance user experience.</li>
+        <li><i class="fa-solid fa-check"></i> Additionally, we provide robust backend development and API integrations, ensuring a smooth and efficient workflow for 
+        <br>
+        businesses of all sizes.</li>
+      </ul>
+    </section>
+
+    <section id="reviews" class="reviews">
+      <h2>Reviews</h2>
+      <div class="review-card"><p><i class="fa-solid fa-star"></i> Outstanding website!</p></div>
+      <div class="review-card"><p><i class="fa-solid fa-star"></i> Professional team!</p></div>
+      <div class="review-card"><p><i class="fa-solid fa-star"></i> High-quality product!</p></div>
+    </section>
+
+    <section class="cta">
+      <h2>Ready to Elevate Your Web Presence?</h2>
+      <p>Contact us today and let’s build something amazing together.</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 DevSphere. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
